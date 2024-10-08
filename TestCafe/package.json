@@ -1,0 +1,22 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome:3": "testcafe chrome --concurrency 3 --screenshots on fail --reporter html:report1.html ./tests2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^3.6.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "prettier": "^3.3.3",
+    "testcafe-reporter-html": "^1.4.6",
+    "utils": "^0.2.2",
+    "xlsx": "^0.18.5"
+  }
+}
